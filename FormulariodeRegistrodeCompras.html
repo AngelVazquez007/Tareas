@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Compras</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="w3-container">
+        <h2>Registro de Compras</h2>
+        <form class="w3-container">
+            <label for="producto_comprado">Producto Comprado:</label>
+            <input class="w3-input" type="text" id="producto_comprado" name="producto_comprado" required><br>
+            <label for="cantidad_comprada">Cantidad:</label>
+            <input class="w3-input" type="number" id="cantidad_comprada" name="cantidad_comprada" min="1" required><br>
+            <label for="precio_unitario">Precio Unitario:</label>
+            <input class="w3-input" type="number" id="precio_unitario" name="precio_unitario" min="0" step="0.01" required><br>
+            <button class="w3-btn w3-blue">Registrar Compra</button>
+        </form>
+    </div>
+</body>
+</html>
